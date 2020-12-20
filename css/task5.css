@@ -1,0 +1,51 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+}
+header{
+	background: url("task5/images/header-bg.jpg") no-repeat center center;
+	position: relative;
+	height: 750px;
+
+}
+nav{
+	padding: 20px 40px;
+}
+nav img{
+	display: inline-flex;
+	justify-content: space-between;
+	padding-right: 20px;
+}
+nav ul{
+	text-decoration: none;
+	list-style: none;
+	display: inline-flex;
+	justify-content: space-between;
+	position: absolute;
+	right: 0px;
+	padding-right: 30px;
+	margin-top: 10px;
+}
+nav ul li{
+	color: white;
+	justify-content: space-between;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.filter{
+	position: absolute;
+	height: 750px;
+	width: 100%;
+	background-color: rgba(20,20,20,0.75);
+}
+.text1{
+	color: white;
+}
+.text1 h1{
+	font-size: 40px;
+}
+.text1 p{
+	font-size: 15px;
+}
